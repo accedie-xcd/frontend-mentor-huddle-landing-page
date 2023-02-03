@@ -1,3 +1,3 @@
 todo:
-font awesome icons
 responsiveness
+basic essential stuff
