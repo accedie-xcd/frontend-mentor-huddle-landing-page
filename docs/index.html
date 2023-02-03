@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Huddle landing page</title>
     <link rel="stylesheet" href="styles.css" />
-    
   </head>
-  <body class="bg-purple-600">
+  <body class="bg-purple-600 w-screen">
     <img
       src="images/bg-mobile.svg"
       alt="background"
-      class="absolute w-full h-1/2 -z-10"
+      class="absolute top-0 right-0 w-full h-1/2 -z-10 md:top-auto md:h-full"
     />
-    <main class="m-12 text-white">
-      <img src="images/logo.svg" alt="Huddle" class="w-44" />
 
-      <img
-        src="images/illustration-mockups.svg"
-        alt="illustration-mockups"
-        class="my-24"
-      />
+    <main class="m-12 text-white md:flex">
+      <div class="hero md:basis-7/12">
+        <img src="images/logo.svg" alt="Huddle" class="w-44 md:w-6/12" />
 
-      <h1 class="text-2xl font-bold m-5 text-center">
-        Build The Community Your Fans Will Love
-      </h1>
-      <p class="text-center">
-        Huddle reimagines the way we build communities. You have a voice, but so
-        does your audience. Create connections with your users as you engage in
-        genuine discussion.
-      </p>
+        <img
+          src="images/illustration-mockups.svg"
+          alt="illustration-mockups"
+          class="my-16"
+        />
+      </div>
 
-      <div class="flex flex-row">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-font-awesome"></i>
+      <div class="md:basis-5/12 md:mt-40 md:mx-8">
+        <h1
+          class="text-2xl md:text-3xl font-bold m-5 mt-0 text-center md:text-left"
+        >
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="text-center md:text-left">
+          Huddle reimagines the way we build communities. You have a voice, but
+          so does your audience. Create connections with your users as you
+          engage in genuine discussion.
+        </p>
+
+        <button
+          class="block mx-auto bg-white p-2 w-8/12 text-purple-600 rounded-full my-8 md:mx-0 md:w-4/12"
+        >
+          Register
+        </button>
+
+        <div
+          class="flex flex-row justify-center gap-4 mt-16 md:justify-end md:mt-72"
+        >
+          <div
+            class="border border-white rounded-full aspect-square w-[30px] text-center"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </div>
+
+          <div
+            class="border border-white rounded-full aspect-square w-[30px] text-center"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+
+          <div
+            class="border border-white rounded-full aspect-square w-[30px] text-center"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+      </div>
     </main>
 
-    <script src="https://kit.fontawesome.com/c1f88b97d8.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c1f88b97d8.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
