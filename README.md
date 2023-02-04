@@ -13,7 +13,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://accedie-xcd.github.io/frontend-mentor-huddle-landing-page/](live site)
+- Live Site URL: [live site](https://accedie-xcd.github.io/frontend-mentor-huddle-landing-page/)
 
 ### Built with
 
